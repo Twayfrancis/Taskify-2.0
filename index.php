@@ -1,3 +1,4 @@
+<?php require "includes/header.php"; ?>
 <!-- HOME -->
     <section class="home-section section-hero overlay bg-image" style="background-image: url('images/hero_1.jpg');" id="home-section">
 
@@ -248,3 +249,5 @@
         </div>
       </div>
     </section>
+
+<?php require "includes/footer.php"; ?>
