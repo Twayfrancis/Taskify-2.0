@@ -4,7 +4,7 @@
 
 
 
-  define("APPURL", "http://localhost/taskify-2.0");
+  define("APPURL", "http://localhost/Taskify-2.0");
 
 ?>
 <!doctype html>
