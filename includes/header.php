@@ -4,7 +4,7 @@
 
 
 
-  define("APPURL", "http://localhost/Taskify-2.0");
+  define("APPURL", "http://localhost/Taskify-2.0/");
 
 ?>
 <!doctype html>
@@ -56,7 +56,7 @@
     <header class="site-navbar mt-3">
       <div class="container-fluid">
         <div class="row align-items-center">
-          <div  class="site-logo col-6"><a href="<?php echo APPURL; ?>">JobBoard</a></div>
+          <div  class="site-logo col-6"><a href="<?php echo APPURL; ?>">Taskify</a></div>
 
           <nav class="mx-auto site-navigation">
             <ul style="margin-right: -500px" class="site-menu js-clone-nav d-inline d-xl-block ml-0 pl-0">

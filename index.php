@@ -223,7 +223,7 @@
                 </blockquote>
               </div>
               <div class="col-lg-6 align-self-end text-center text-lg-right">
-                <img src="images/person_transparent.png" alt="Image" class="img-fluid mb-0">
+                <img src="images/person_transparent.jpg" alt="Image" class="img-fluid mb-0">
               </div>
             </div>
           </div>
