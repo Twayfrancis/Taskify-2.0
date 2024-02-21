@@ -1,4 +1,21 @@
 <?php require "includes/header.php"; ?>
+<?php require "config/db_config"; ?>
+<?php
+  $select = $conn->query("SELECT * FROM jobs  WHERE status = 1 ORDER BY created_at DESC LIMIT 5");
+
+  $select->execute();
+
+  $jobs = $select->fetchAll(PDO::FETCH_OBJ);
+
+  $searches = $conn->query("SELECT COUNT(keyword) AS count, keyword FROM searches
+   GROUP BY keyword ORDER BY count DESC LIMIT 4");
+
+  $searches->execute();
+
+  $allSearches = $searches->fetchAll(PDO::FETCH_OBJ);
+
+
+?>
 <!-- HOME -->
     <section class="home-section section-hero overlay bg-image" style="background-image: url('images/hero_1.jpg');" id="home-section">
 
