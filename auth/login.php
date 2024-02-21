@@ -16,15 +16,6 @@
         echo "<script>alert('some inputs are empty')</script>";
         } else {
 
-            //checked fot the form submission
-            //we need to grap the data
-            //do the query with the email only 
-            //we are going to execute and then fetch the data
-            //check for the rowcount
-            //check for the password
-
-
-            
             $email = $_POST['email'];
             $password = $_POST['password'];
 
