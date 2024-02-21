@@ -1,5 +1,5 @@
 <?php require "includes/header.php"; ?>
-<?php require "config/db_config"; ?>
+<?php require "config/db_config.php"; ?>
 <?php
   $select = $conn->query("SELECT * FROM jobs  WHERE status = 1 ORDER BY created_at DESC LIMIT 5");
 
