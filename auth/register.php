@@ -28,7 +28,7 @@
 
         
         //checking for username 
-        if(strlen($email) > 22 OR strlen($username) > 15 ) {
+        if(strlen($email) > 30 OR strlen($username) > 15 ) {
           echo "<script>alert('email or username is too big')</script>";
 
         } else {
