@@ -63,8 +63,8 @@
               <li><a href="<?php echo APPURL; ?>"  class="nav-link active">Home</a></li>
               <li><a href="<?php echo APPURL; ?>about.php">About</a></li>
               <li><a href="<?php echo APPURL; ?>contact.php">Contact</a></li>
-              <li><a href="<?php echo APPURL; ?>gerneral/workers.php">Workers</a></li>
-              <li><a href="<?php echo APPURL; ?>gerneral/companies.php">Companies</a></li>
+              <li><a href="<?php echo APPURL; ?>general/workers.php">Workers</a></li>
+              <li><a href="<?php echo APPURL; ?>general/companies.php">Companies</a></li>
 
 
               <?php if(isset($_SESSION['username'])) : ?>
