@@ -26,6 +26,7 @@
                     <th scope="col">#</th>
                     <th scope="col">adminname</th>
                     <th scope="col">email</th>
+                    <th scope="col">Action</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -34,7 +35,10 @@
                     <th scope="row"><?php echo $admin->id; ?></th>
                     <td><?php echo $admin->adminname; ?></td>
                     <td><?php echo $admin->email; ?></td>
-                   
+                    <td>
+                      <!-- Delete link -->
+                      <a href="delete-admin.php?id=<?php echo $admin->id; ?>" onclick="return confirm('Are you sure you want to delete this admin?');">Delete</a>
+                    </td>
                   </tr>
                   <?php endforeach; ?>
                 
@@ -44,6 +48,5 @@
           </div>
         </div>
       </div>
-
 
 <?php require "../layouts/footer.php"; ?>           
