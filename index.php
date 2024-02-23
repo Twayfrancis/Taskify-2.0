@@ -131,9 +131,9 @@
           <?php foreach($jobs as $job) : ?>
             <li class="job-listing d-block d-sm-flex pb-3 pb-sm-0 align-items-center">
               <a href="jobs/job-single.php?id=<?php echo $job->id; ?>"></a>
-              <div class="job-listing-logo">
+              <!-- <div class="job-listing-logo">
                 <img src="users/user-images/<?php echo $job->company_image; ?>" alt="<?php echo $job->company_image; ?>" class="img-fluid">
-              </div>
+              </div> -->
 
               <div class="job-listing-about d-sm-flex custom-width w-100 justify-content-between mx-4">
                 <div class="job-listing-position custom-width w-50 mb-3 mb-sm-0">
