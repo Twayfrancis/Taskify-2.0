@@ -2,8 +2,9 @@
 <?php require "../../config/db_config.php"; ?>
 
 <?php 
-    if (!isset($_SESSION['adminname'])) {
-        header("location: ".ADMINURL."");
+    // checking if logged-in user is a superadmin before showin the delete link
+    if (!isset($_SESSION['adminname']) || $_SESSION['role'] !== 'superadmin') {
+        echo "<script>alert('Unauthorized access.'); window.location.href='admins.php';</script>";
         exit;
     }
     

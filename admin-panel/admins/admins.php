@@ -37,7 +37,12 @@
                     <td><?php echo $admin->email; ?></td>
                     <td>
                       <!-- Delete link -->
-                      <a href="delete-admin.php?id=<?php echo $admin->id; ?>" onclick="return confirm('Are you sure you want to delete this admin?');">Delete</a>
+                      <?php 
+                        // Example: Checking if the logged-in user is a superadmin before showing the delete link
+                        if ($_SESSION['role'] === 'superadmin') {
+                          echo '<a href="delete-admin.php?id=' . $admin->id . '" onclick="return confirm(\'Are you sure you want to delete this admin?\');" class="btn btn-danger">Delete</a>';
+                        }
+                      ?>
                     </td>
                   </tr>
                   <?php endforeach; ?>

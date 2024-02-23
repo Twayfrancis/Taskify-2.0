@@ -13,16 +13,7 @@
         if(empty($_POST['email']) OR empty($_POST['password'])) {
         echo "<script>alert('some inputs are empty')</script>";
         } else {
-
-            //checked fot the form submission
-            //we need to grap the data
-            //do the query with the email only 
-            //we are going to execute and then fetch the data
-            //check for the rowcount
-            //check for the password
-
-
-            
+    
             $email = $_POST['email'];
             $password = $_POST['password'];
 
@@ -37,6 +28,8 @@
                   $_SESSION['adminname'] = $select['adminname'];
                  
                   $_SESSION['email'] = $select['email'];
+
+                  $_SESSION['role'] = $select['role'];
                   
                   header("location: ".ADMINURL."");
                   
