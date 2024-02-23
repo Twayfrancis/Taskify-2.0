@@ -17,31 +17,21 @@
       $adminname = $_POST['adminname'];
       $email = $_POST['email'];
       $password = $_POST['password'];
-     
+      $role = $_POST['role']; 
 
-
-       $insert = $conn->prepare("INSERT INTO admins (adminname, email, mypassword) 
-            VALUES (:adminname, :email, :mypassword)");
+       $insert = $conn->prepare("INSERT INTO admins (adminname, email, role, mypassword) 
+            VALUES (:adminname, :email, :role, :mypassword)");
   
       $insert->execute([
               ':adminname' =>  $adminname,
               ':email' =>  $email,
+              ':role' => $role,
               ':mypassword' =>  password_hash($password, PASSWORD_DEFAULT),
             
       ]);  
-  
-     
-          
-         
-
-       
-
-       
+        
           }
       }
-
-      
-
 
 ?>
        <div class="row">
@@ -59,20 +49,21 @@
                 <div class="form-outline mb-4">
                   <input type="text" name="adminname" id="form2Example1" class="form-control" placeholder="username" />
                 </div>
+                <!-- Role Selection -->
+                <div class="form-outline mb-4">
+                  <select name="role" class="form-control">
+                    <option value="admin">Admin</option>
+                    <option value="superadmin">Super Admin</option>
+                  </select>
+                </div>
+
                 <div class="form-outline mb-4">
                   <input type="password" name="password" id="form2Example1" class="form-control" placeholder="password" />
                 </div>
 
-               
-            
-                
-              
-
-
                 <!-- Submit button -->
                 <button type="submit" name="submit" class="btn btn-primary  mb-4 text-center">create</button>
 
-          
               </form>
 
             </div>
