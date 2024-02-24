@@ -1,10 +1,10 @@
 <?php require "../layouts/header.php"; ?>           
 <?php require "../../config/db_config.php"; ?>
 <?php 
-
-  if(!isset($_SESSION['adminname'])) {
-        
-    header("location: ".ADMINURL."");
+  // check if logged-in admin is a superadmin before showing create admin link
+  if(!isset($_SESSION['adminname']) || $_SESSION['role'] !== 'superadmin') {
+    echo "<script>alert('Unauthorized access.'); window.location.href='admins.php';</script>";  
+    //header("location: ".ADMINURL."");
 
   }
 
