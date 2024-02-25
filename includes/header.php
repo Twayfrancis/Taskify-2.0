@@ -17,7 +17,8 @@
     <meta name="keywords" content="" />
     <meta name="author" content="Free-Template.co" />
     <link rel="shortcut icon" href="ftco-32x32.png">
-    
+    <link rel="icon" type="images/x-icon" href="images/android-chrome-512x512.png">
+
     <link rel="stylesheet" href="<?php echo APPURL; ?>/css/custom-bs.css">
     <link rel="stylesheet" href="<?php echo APPURL; ?>/css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="<?php echo APPURL; ?>/css/bootstrap-select.min.css">
