@@ -17,7 +17,7 @@
     <meta name="keywords" content="" />
     <meta name="author" content="Free-Template.co" />
     <link rel="shortcut icon" href="ftco-32x32.png">
-    <link rel="icon" type="images/x-icon" href="images/android-chrome-512x512.png">
+    <link rel="icon" type="images/x-icon" href="<?php echo APPURL; ?>images/android-chrome-512x512.png">
 
     <link rel="stylesheet" href="<?php echo APPURL; ?>/css/custom-bs.css">
     <link rel="stylesheet" href="<?php echo APPURL; ?>/css/jquery.fancybox.min.css">
@@ -77,16 +77,16 @@
                     <?php echo $_SESSION['username']; ?>
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="<?php echo APPURL; ?>/users/public-profile.php?id=<?php echo $_SESSION['id']; ?>">Public profile</a>
-                    <a class="dropdown-item" href="<?php echo APPURL; ?>/users/update-profile.php?upd_id=<?php echo $_SESSION['id']; ?>">Update profile</a>
+                    <a class="dropdown-item" href="<?php echo APPURL; ?>users/public-profile.php?id=<?php echo $_SESSION['id']; ?>">Public profile</a>
+                    <a class="dropdown-item" href="<?php echo APPURL; ?>users/update-profile.php?upd_id=<?php echo $_SESSION['id']; ?>">Update profile</a>
                     <?php if(isset($_SESSION['type']) AND $_SESSION['type'] == "Worker") : ?>
-                      <a class="dropdown-item" href="<?php echo APPURL; ?>/users/saved_jobs.php?id=<?php echo $_SESSION['id']; ?>">Saved Jobs</a>
+                      <a class="dropdown-item" href="<?php echo APPURL; ?>users/saved_jobs.php?id=<?php echo $_SESSION['id']; ?>">Saved Jobs</a>
                     <?php endif; ?>
                     <?php if(isset($_SESSION['type']) AND $_SESSION['type'] == "Company") : ?>
-                      <a class="dropdown-item" href="<?php echo APPURL; ?>/users/show-applicants.php?id=<?php echo $_SESSION['id']; ?>">Show Applicants</a>
+                      <a class="dropdown-item" href="<?php echo APPURL; ?>users/show-applicants.php?id=<?php echo $_SESSION['id']; ?>">Show Applicants</a>
                     <?php endif; ?>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="<?php echo APPURL; ?>/auth/logout.php">Logout</a>
+                    <a class="dropdown-item" href="<?php echo APPURL; ?>auth/logout.php">Logout</a>
                   </div>
                 </li>
 
@@ -94,8 +94,8 @@
 
             
              
-                <li class="d-lg-inline"><a href="<?php echo APPURL; ?>/auth/login.php">Log In</a></li>
-                <li class="d-lg-inline"><a href="<?php echo APPURL; ?>/auth/register.php">Register</a></li>
+                <li class="d-lg-inline"><a href="<?php echo APPURL; ?>auth/login.php">Log In</a></li>
+                <li class="d-lg-inline"><a href="<?php echo APPURL; ?>auth/register.php">Register</a></li>
               <?php endif; ?>
             </ul>
           </nav>

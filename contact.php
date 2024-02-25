@@ -140,13 +140,13 @@
           <div class="col-lg-5 ml-auto">
             <div class="p-4 mb-3 bg-white">
               <p class="mb-0 font-weight-bold">Address</p>
-              <p class="mb-4">203 Fake St. Mountain View, San Francisco, California, USA</p>
+              <p class="mb-4">P.O Box Kisumu</p>
 
               <p class="mb-0 font-weight-bold">Phone</p>
-              <p class="mb-4"><a href="#">+1 232 3235 324</a></p>
+              <p class="mb-4"><a href="tel:+254714121637">+2547 14 121 637</a></p>
 
               <p class="mb-0 font-weight-bold">Email Address</p>
-              <p class="mb-0"><a href="#">youremail@domain.com</a></p>
+              <p class="mb-0"><a href="mailto:tawaifrancis@gmail.com">tawaifrancis@gmail.com</a></p>
 
             </div>
           </div>
