@@ -9,7 +9,7 @@
     <meta name="keywords" content="" />
     <meta name="author" content="Free-Template.co" />
     <link rel="shortcut icon" href="ftco-32x32.png">
-    
+    <link rel="icon" type="images/x-icon" href="images/android-chrome-512x512.png">
     <link rel="stylesheet" href="css/custom-bs.css">
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/bootstrap-select.min.css">
@@ -143,8 +143,8 @@
           </div>
           <div class="col-lg-5 ml-auto">
             <h2 class="section-title mb-3">Taskify For Teachers</h2>
-            <p class="lead">Eveniet voluptatibus voluptates suscipit minima, cum voluptatum ut dolor, sed facere corporis qui, ea quisquam quis odit minus nulla vitae. Sit, voluptatem.</p>
-            <p>Ipsum harum assumenda in eum vel eveniet numquam, cumque vero vitae enim cupiditate deserunt eligendi officia modi consectetur. Expedita tempora quos nobis earum hic ex asperiores quisquam optio nostrum sit!</p>
+            <p class="lead">Our Mission</p>
+            <p>Taskify For Teachers is dedicated to revolutionizing the way educators in Kenya find and secure teaching opportunities. Our mission is to bridge the gap between talented educators and the schools that need them, simplifying the job search process, and empowering teachers to take the next step in their careers with confidence.</p>
           </div>
         </div>
       </div>
@@ -160,9 +160,9 @@
             </a>
           </div>
           <div class="col-lg-5 mr-auto order-md-1  mb-5 mb-lg-0">
-            <h2 class="section-title mb-3">Taskify For Teachers</h2>
-            <p class="lead">Eveniet voluptatibus voluptates suscipit minima, cum voluptatum ut dolor, sed facere corporis qui, ea quisquam quis odit minus nulla vitae. Sit, voluptatem.</p>
-            <p>Ipsum harum assumenda in eum vel eveniet numquam, cumque vero vitae enim cupiditate deserunt eligendi officia modi consectetur. Expedita tempora quos nobis earum hic ex asperiores quisquam optio nostrum sit!</p>
+            <h2 class="section-title mb-3">Who We Are</h2>
+            <p class="lead">Taskify For Teachers is an innovative platform offering a streamlined, user-friendly experience for educators seeking new opportunities.</p>
+            <p>Founded by a team of educators, technologists, and career experts passionate about the future of education in Kenya, Taskify For Teachers understands the challenges teachers face in finding fulfilling job opportunities. We've experienced these challenges firsthand and have created Taskify For Teachers as the solution—a platform where educators can easily explore and apply for teaching positions across the country.</p>
           </div>
         </div>
       </div>
@@ -186,28 +186,15 @@
           <div class="col-md-6">
             <h3>Francis Tawai</h3>
             <p class="text-muted">Creative Director</p>
-            <p>Soluta quasi cum delectus eum facilis recusandae nesciunt molestias accusantium libero dolores repellat id in dolorem laborum ad modi qui at quas dolorum voluptatem voluptatum repudiandae voluptatibus ut? Ex vel  ad explicabo iure ipsa possimus consectetur neque rem molestiae eligendi velit?.</p>
+            <p>As the Creative Director of Taskify For Teachers, I bring a blend of educational insight and innovative drive to the forefront of our mission. With a rich background in teaching Geography and History, my journey in the classroom has been marked by a profound commitment to enhancing educational experiences for both teachers and students. Witnessing firsthand the challenges educators face in navigating their careers inspired me to channel my passion for teaching into creating Taskify For Teachers.
+              My experience in the education sector has imbued me with a deep understanding of the need for a platform that not only simplifies the job search process for teachers across Kenya but also fosters a supportive community where educators can share, grow, and thrive. In my role, I leverage my firsthand knowledge of the educational landscape and my skills in creative problem-solving to guide the development of Taskify For Teachers. My vision is to see a world where every teacher has the opportunity to pursue their passion in an environment that values their dedication and expertise.
+              I believe that by empowering educators with the tools they need to succeed, we can make a lasting impact on the future of education in Kenya. Through Taskify For Teachers, I am committed to transforming the way educators approach their career journeys, making it more accessible, rewarding, and impactful for everyone involved.
+            </p>
             <div class="social mt-4">
-              <a href="#"><span class="icon-facebook"></span></a>
-              <a href="#"><span class="icon-twitter"></span></a>
-              <a href="#"><span class="icon-instagram"></span></a>
-              <a href="#"><span class="icon-linkedin"></span></a>
-            </div>
-          </div>
-
-          <div class="col-md-6 order-md-2 ml-md-auto">
-            <img src="images/person_5.jpg" alt="Image" class="img-fluid mb-4 rounded">
-          </div>
-
-          <div class="col-md-6">
-            <h3>Chintan Patel</h3>
-            <p class="text-muted">Creative Director</p>
-            <p>Soluta quasi cum delectus eum facilis recusandae nesciunt molestias accusantium libero dolores repellat id in dolorem laborum ad modi qui at quas dolorum voluptatem voluptatum repudiandae voluptatibus ut? Ex vel  ad explicabo iure ipsa possimus consectetur neque rem molestiae eligendi velit?.</p>
-            <div class="social mt-4">
-              <a href="#"><span class="icon-facebook"></span></a>
-              <a href="#"><span class="icon-twitter"></span></a>
-              <a href="#"><span class="icon-instagram"></span></a>
-              <a href="#"><span class="icon-linkedin"></span></a>
+              <a href="https://web.facebook.com/tway.franc/"><span class="icon-facebook"></span></a>
+              <a href="https://twitter.com/nutskoko91"><span class="icon-twitter"></span></a>
+              <a href="https://www.instagram.com/francistawai/"><span class="icon-instagram"></span></a>
+              <a href="https://www.linkedin.com/in/tawai-francis/"><span class="icon-linkedin"></span></a>
             </div>
           </div>
       </div>
@@ -244,7 +231,7 @@
           <div class="col-6 col-md-3 mb-4 mb-md-0">
             <h3>Support</h3>
             <ul class="list-unstyled">
-              <li><a href="#">Support</a></li>
+              <li><a href="mailto:info@taskify.com">Support</a></li>
               <li><a href="#">Privacy</a></li>
               <li><a href="#">Terms of Service</a></li>
             </ul>
@@ -252,10 +239,10 @@
           <div class="col-6 col-md-3 mb-4 mb-md-0">
             <h3>Contact Us</h3>
             <div class="footer-social">
-              <a href="#"><span class="icon-facebook"></span></a>
-              <a href="#"><span class="icon-twitter"></span></a>
-              <a href="#"><span class="icon-instagram"></span></a>
-              <a href="#"><span class="icon-linkedin"></span></a>
+              <a href="https://web.facebook.com/tway.franc/"><span class="icon-facebook"></span></a>
+              <a href="https://twitter.com/nutskoko91"><span class="icon-twitter"></span></a>
+              <a href="https://www.instagram.com/francistawai/"><span class="icon-instagram"></span></a>
+              <a href="https://www.linkedin.com/in/tawai-francis/"><span class="icon-linkedin"></span></a>
             </div>
           </div>
         </div>

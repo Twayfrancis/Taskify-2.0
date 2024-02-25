@@ -80,7 +80,7 @@
         <div class="row mb-5 justify-content-center">
           <div class="col-md-7 text-center">
             <h2 class="section-title mb-2 text-white">Taskify Site Stats</h2>
-            <p class="lead text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita unde officiis recusandae sequi excepturi corrupti.</p>
+            <p class="lead text-white">Taskify For Teachers is more than a job platform; it's a movement towards creating more accessible, equitable employment opportunities for educators in Kenya. By joining us, you gain access to a wealth of job opportunities, resources, and a community committed to supporting each other's growth and success.</p>
           </div>
         </div>
         <div class="row pb-0 block__19738 section-counter">
