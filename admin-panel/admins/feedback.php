@@ -29,6 +29,7 @@
                     <th scope="col">subject</th>
                     <th scope="col">message</th>
                     <th scope="col">created_at</th>
+                    <th scope="col">Action</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -42,6 +43,15 @@
                     <td><?php echo $contact->message; ?></td>
                     <td><?php echo $contact->created_at; ?></td>
                   </tr>
+                  <td>
+                      <!-- Delete link -->
+                      <?php 
+                        // Example: Checking if the logged-in user is a superadmin before showing the delete link
+                        if ($_SESSION['role'] === 'superadmin') {
+                          echo '<a href="delete-feedback.php?id=' . $contact->id . '" onclick="return confirm(\'Are you sure you want to delete this feedback?\');" class="btn btn-danger">Delete</a>';
+                        }
+                      ?>
+                    </td>
                   <?php endforeach; ?>
                 
                 </tbody>
