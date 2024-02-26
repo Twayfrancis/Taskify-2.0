@@ -45,6 +45,9 @@
           <li class="nav-item">
             <a class="nav-link" href="<?php echo ADMINURL; ?>/jobs-admins/show-jobs.php" style="margin-left: 20px;">Jobs</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="<?php echo ADMINURL; ?>/admins/feedback.php" style="margin-left: 20px;">Feedback</a>
+          </li>
           <?php endif; ?>
         
         </ul>
